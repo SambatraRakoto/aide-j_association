@@ -1,0 +1,24 @@
+@import "tailwindcss";
+@plugin "daisyui" {
+  themes: all;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+}
+
+.footer-title {
+  opacity: 0.85;
+}
+
+.logo {
+  border-radius: 50% 50% 47% 53% / 47% 48% 52% 53%;
+  width: 64px;
+  height: 64px;
+  object-fit: cover;
+  background-color: #fff;
+}
